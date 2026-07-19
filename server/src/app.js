@@ -49,6 +49,9 @@ import paymentRoutes from './routes/paymentRoutes.js';
 
 const app = express();
 
+// Trust reverse proxy (e.g., Render, Heroku) so secure cookies work
+app.set('trust proxy', 1);
+
 // Security HTTP headers with strict CSP and HSTS
 app.use(helmet({
   contentSecurityPolicy: {
