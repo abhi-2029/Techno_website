@@ -48,6 +48,7 @@ export const register = asyncHandler(async (req, res) => {
       role: user.role,
       avatar: user.avatar,
     },
+    token
   });
 
   res.status(response.statusCode).json(response);
@@ -95,6 +96,7 @@ export const login = asyncHandler(async (req, res) => {
       role: user.role,
       avatar: user.avatar,
     },
+    token
   });
 
   res.status(response.statusCode).json(response);

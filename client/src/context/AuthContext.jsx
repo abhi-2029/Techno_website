@@ -36,6 +36,7 @@ export function AuthProvider({ children }) {
       } catch {
         setUser(null);
         localStorage.removeItem('user');
+        localStorage.removeItem('token');
       } finally {
         setLoading(false);
       }
@@ -49,6 +50,9 @@ export function AuthProvider({ children }) {
 
     if (userData) {
       localStorage.setItem('user', JSON.stringify(userData));
+      if (data.token || data.data?.token) {
+        localStorage.setItem('token', data.token || data.data.token);
+      }
       setUser(userData);
     }
 
@@ -62,6 +66,7 @@ export function AuthProvider({ children }) {
       console.error('Logout failed', err);
     }
     localStorage.removeItem('user');
+    localStorage.removeItem('token');
     setUser(null);
   }, []);
 
