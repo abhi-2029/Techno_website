@@ -5,27 +5,19 @@ export default function Leadership() {
   const leaders = [
     {
       id: 1,
-      name: 'To Be Announced',
-      role: 'CEO & Founder',
-      title: "Founder's Vision",
-      quote: "Vision statement pending.",
-      bio: "The CEO & Founder profile will be updated shortly.",
-      image: '',
-      phone: '',
-      email: '',
-      projects: []
-    },
-    {
-      id: 2,
       name: 'Sujeet Kumar Sah',
       role: 'Co-Founder',
-      title: "Co-Founder's Expertise",
-      quote: "Expertise statement pending CV.",
-      bio: "Profile pending detailed CV.",
-      image: '',
-      phone: '',
-      email: '',
-      projects: []
+      title: "Co-Founder's Vision",
+      quote: "Our mission is to bridge the gap between complex government regulations and seamless business execution.",
+      bio: "With extensive experience in civil engineering and government tendering, Sujeet leads the strategic vision for CARD Technocrats. He specializes in driving large-scale infrastructure bidding, regulatory compliance, and project estimations.",
+      image: '/sujeet_sah.jpg',
+      phone: '+91 7529993812',
+      email: 'ctellp@gmail.com',
+      projects: [
+        'CPWD & PWD Registration Consulting',
+        'High-Value Government Tender Filing',
+        'Infrastructure Cost Estimations (SOR)'
+      ]
     }
   ];
 

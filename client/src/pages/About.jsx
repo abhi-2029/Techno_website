@@ -170,7 +170,7 @@ export default function About() {
           </section>
 
           {/* CEO Vision Spotlight Section */}
-          {/* <Leadership /> */}
+          <Leadership />
 
           {/* Executive Leadership Team Section */}
           <section className="space-y-12 max-w-4xl mx-auto pb-12">
