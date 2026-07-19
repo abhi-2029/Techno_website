@@ -5,6 +5,18 @@ export default function Leadership() {
   const leaders = [
     {
       id: 1,
+      name: 'To Be Announced',
+      role: 'CEO & Founder',
+      title: "Founder's Vision",
+      quote: "Vision statement pending.",
+      bio: "The CEO & Founder profile will be updated shortly.",
+      image: '',
+      phone: '',
+      email: '',
+      projects: []
+    },
+    {
+      id: 2,
       name: 'Sujeet Kumar Sah',
       role: 'Co-Founder',
       title: "Co-Founder's Expertise",
