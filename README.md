@@ -234,6 +234,18 @@ NODE_ENV=production node src/index.js
 | `POST` | `/api/v1/testimonials` | 🔒 Admin | Add testimonial |
 | `PUT` | `/api/v1/testimonials/:id` | 🔒 Admin | Update testimonial |
 | `DELETE` | `/api/v1/testimonials/:id` | 🔒 Admin | Delete testimonial |
+| `POST` | `/api/v1/bookings` | — | Submit travel booking |
+| `GET` | `/api/v1/bookings` | 🔒 Admin | List travel bookings |
+| `PATCH` | `/api/v1/bookings/:id` | 🔒 Admin | Update booking status |
+| `DELETE` | `/api/v1/bookings/:id` | 🔒 Admin | Delete booking |
+| `GET` | `/api/v1/careers/jobs` | — | List open jobs |
+| `POST` | `/api/v1/careers/jobs` | 🔒 Admin | Create job posting |
+| `PUT` | `/api/v1/careers/jobs/:id` | 🔒 Admin | Update job posting |
+| `DELETE` | `/api/v1/careers/jobs/:id` | 🔒 Admin | Delete job posting |
+| `POST` | `/api/v1/careers/apply` | — | Submit job application |
+| `GET` | `/api/v1/careers/applications` | 🔒 Admin | List job applications |
+| `PATCH` | `/api/v1/careers/applications/:id` | 🔒 Admin | Update application status |
+| `DELETE` | `/api/v1/careers/applications/:id` | 🔒 Admin | Delete application record |
 | `GET` | `/api/v1/analytics/stats` | 🔒 Admin | Dashboard analytics |
 
 ---
@@ -252,6 +264,8 @@ NODE_ENV=production node src/index.js
 - **Blog System** — Rich content with categories and tags
 - **File Downloads** — Upload and manage downloadable files
 - **Project Gallery** — Showcase completed projects
+- **Careers Portal** — Post job vacancies and accept candidate applications
+- **Travel Bookings** — Let clients book train, flight, and hotel tickets
 - **WhatsApp Integration** — Floating chat button
 - **Newsletter** — Email subscription system
 
