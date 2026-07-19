@@ -7,16 +7,17 @@ export default function Leadership() {
       id: 1,
       name: 'Sujeet Kumar Sah',
       role: 'Co-Founder',
-      title: "Co-Founder's Vision",
-      quote: "Our mission is to bridge the gap between complex government regulations and seamless business execution.",
-      bio: "With extensive experience in civil engineering and government tendering, Sujeet leads the strategic vision for CARD Technocrats. He specializes in driving large-scale infrastructure bidding, regulatory compliance, and project estimations.",
+      title: "Co-Founder's Expertise",
+      quote: "Delivering absolute precision in quantity surveying, tender estimations, and infrastructure billing.",
+      bio: "A seasoned Civil Engineer with over 7 years of successful track record in managing mega-infrastructure projects. Sujeet specializes in Quantity Surveying, Tender Estimation, and Cost Analysis. He has led billing and estimation for landmark projects including IGI Airport (New Delhi), underground metro stations, and multi-lane expressways for prestigious clients like NHAI, MSRDC, Tata Projects, and the Airport Authority of India.",
       image: '/sujeet_sah.jpg',
       phone: '+91 7529993812',
-      email: 'ctellp@gmail.com',
+      email: 'sujeetr250@gmail.com',
       projects: [
-        'CPWD & PWD Registration Consulting',
-        'High-Value Government Tender Filing',
-        'Infrastructure Cost Estimations (SOR)'
+        'Delhi-Vadodara Greenfield Expressway (NHAI)',
+        'Nagpur-Mumbai Super Communication Expressway (MSRDC)',
+        'Lucknow Metro Rail Project Phase 1A (Tata Projects)',
+        'ATC Tower Project at IGI Airport, New Delhi'
       ]
     }
   ];
