@@ -8,6 +8,7 @@
 import dotenv from 'dotenv';
 import app from './app.js';
 import connectDB from './config/db.js';
+import { syncAdminCredentials } from './utils/syncAdmin.js';
 
 // Load environment variables
 dotenv.config();
@@ -18,6 +19,9 @@ const startServer = async () => {
   try {
     // Connect to database
     await connectDB();
+    
+    // Auto-sync admin credentials from .env to database
+    await syncAdminCredentials();
 
     app.listen(PORT, () => {
       console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
